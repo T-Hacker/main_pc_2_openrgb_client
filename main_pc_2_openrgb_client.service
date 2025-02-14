@@ -3,7 +3,7 @@ Description=Main PC OpenRGB Client
 After=network.target
 
 [Service]
-ExecStart=/usr/bin/env RUST_LOG=info main_pc_2_openrgb_client
+ExecStart=/usr/bin/env RUST_LOG=info /home/pedro/.cargo/bin/main_pc_2_openrgb_client
 Restart=always
 User=pedro
 WorkingDirectory=/home/pedro
