@@ -1,0 +1,15 @@
+[package]
+name = "main_pc_2_openrgb_client"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+cpu-monitor = "0.1.1"
+log = "0.4.25"
+# openrgb = { path = "../openrgb-rs" }
+openrgb = { git = "https://github.com/T-Hacker/openrgb-rs.git" }
+ringbuffer = "0.15.0"
+simple_logger = "5.0.0"
+sysinfo = "0.33.1"
+tokio = { version = "1.43.0", features = ["full"] }
+tokio-retry = "0.3.0"
